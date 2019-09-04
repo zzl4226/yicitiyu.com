@@ -741,7 +741,7 @@ li > a:only-child:after { content: ''; }
 }
 .tab-main section {
     display: none;
-    padding: 2em 0 0;
+    padding: 2em 15px 0;
     border-top: 1px solid #abc;
 }
 
