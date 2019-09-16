@@ -248,12 +248,12 @@ h4.agile-title,h1.agile-title,h2.agile-title {
     background-size: cover;
 }
 
-/*.csslider>ul>li:nth-child(3) {
+.csslider>ul>li:nth-child(3) {
     background: url(../images/banner3.jpg) no-repeat center;
     background-size: cover;
-}*/
+}
 .csslider>ul>li:last-child {
-    background: url(../images/banner3.jpg) no-repeat center;
+    background: url(../images/banner4.jpg) no-repeat center;
     background-size: cover;
 }
 
