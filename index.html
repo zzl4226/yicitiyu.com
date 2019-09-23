@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
 <head>
-	<title>yicitiyu.com</title>	
+	<title>一次体育健身，超大恒温泳池，刷新您身边健身房级别，一个专业健身减肥瘦身CLUB。帮助你设置科学健身课程，制定减肥方法，配置健康饮食，让你轻松减肥，快速塑形，一起嗨运动！</title>	
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -9,6 +9,8 @@
 	<meta name="description" content="一次体育健身网，是一个专业健身减肥瘦身网站。帮助你设置科学健身课程，制定减肥方法，配置健康饮食，让你轻松减肥，快速塑形，一起嗨运动！">
 	<!-- start video.js -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.3.0/video-js.min.css" rel="stylesheet">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.3.0/video.min.js"></script>
 	<!-- end video.js -->
 	<meta charset="utf-8">
@@ -224,7 +226,7 @@
 					</p>
 					<h5><span class="fa mr-2 fa-cogs" aria-hidden="true"></span> Posuere Curae, Nulla mollis dapibus.</h5>
 					<h5><span class="fa mr-2 fa-tty" aria-hidden="true"></span> Faucibus orci luctuset ipsum.</h5>
-					<h5><span class="fa mr-1 fa-cubes" aria-hidden="true"></span> Vestibulum ante ipsum eut in orci.</h5>
+					<h5><span class="fa mr-1 fa-cubes" aria-hidden="true"></span><span id="ecm">一次体育会籍管理</span></h5>
 				</div>
 				<div class="col-lg-6 mt-lg-0 mt-sm-5 mt-4">
 					<h3 class="heading">加入我们</h3>
@@ -260,16 +262,20 @@
 				<li><a href="#"><span class="fa fa-envelope fa-2x"></span></a></li>
 				<!--   -->
 			</ul>
-
-			<p>一次体育有限公司<a href="http://www.beian.miit.gov.cn" target="_blank" title="yicitiyu">渝ICP备19011407号-1</a> - Collect from <a href="http://www.yicitiyu.com/" title="一次体育" target="_blank">一次体育</a></p>
-
 			<p><a href="http://www.beian.miit.gov.cn">渝ICP备19011407号-1</a> - Collect from <a href="http://www.yicitiyu.com/" title="一次体育" target="_blank">一次体育</a></p>
 			<p>地址： <a href="https://surl.amap.com/yHgKJln7RS" target="_blank">重庆市南岸区学府大道51号力豪健身(一次体育体验店)</a></p>
 			<p>电话：023-86801148</p>
-
 		</div>
 	</div>
 </footer>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#ecm").click(function(){
+			$(location).attr("href","ecsweb/index.php");
+		});
+	});
+</script>
 
 </body>
 </html>
